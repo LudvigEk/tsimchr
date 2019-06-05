@@ -5,6 +5,15 @@ Simulation code for the paper "Identification of essential genes constraining th
 
 Parts are dependent on MFC libraries, doesn't compile easily on linux/MAC. Uploaded visual studio solution to get compiler settings etc, for easier compilation.
 
+Installation
+------------
+
+To compile the executable properly you will need the dependencies located at 
+
+https://github.com/LudvigEk/tsimchr_dependencies
+
+Start by downloading those, then extract tsimchr into the tsimchr folder inside tsimchr_dependencies. After that you can compile.
+
 Usage
 --------
 
