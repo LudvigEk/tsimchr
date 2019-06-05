@@ -18,16 +18,23 @@ Usage
 --------
 
 example:
+
 tsimchr -pmajor:20 -ppoint:79 -predup:1 test_simulation.txt
 
 Switches are:
+
 pmajor - percentage chance of regional deletion
+
 ppoint - percentage chance of point deletion
+
 predup - percentage chance of reduplication event
+
 n - keep going until this many homozygous deletions of the TSG has occured
 
 Notes
 --------
 To change number of essential genes and their location, or to change position of the TSG, modify the source code and recompile.
+
 Open tsimchr.cpp and search for 'v_essential.SetAt'. Their index is set at a relative position in the genelist. 
+
 Process is similar for setting position of the tumor suppressor (driver gene), called i_tsg.
